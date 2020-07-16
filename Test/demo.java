@@ -17,6 +17,7 @@ public class demo {
         for (News n:list) {
             System.out.println(n);
         }
+        System.out.println("你好啊！！！");
 
     };
 
