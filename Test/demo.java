@@ -7,7 +7,6 @@ import java.util.List;
 
 public class demo {
 
-
     @Test
     public  void f1(){
 
@@ -18,6 +17,6 @@ public class demo {
             System.out.println(n);
         }
 
-    };
+    }
 
 }
