@@ -9,10 +9,10 @@ import java.util.Properties;
 
 public class DatabaseUtil {
     //加载属性文件中的数据库配置参数
-    private static String driver=(ConfigManager.getProperty("driver"));//驱动器
-    private static String url=(ConfigManager.getProperty("url"));	//数据库URL
-    private static String user=(ConfigManager.getProperty("user"));		//数据库账号
-    private static String password=(ConfigManager.getProperty("password"));	//数据库密码
+    private static String driver=ConfigManager.getProperty("driver");//驱动器
+    private static String url=ConfigManager.getProperty("url");	//数据库URL
+    private static String user=ConfigManager.getProperty("user");		//数据库账号
+    private static String password=ConfigManager.getProperty("password");	//数据库密码
 
     static {
         try {

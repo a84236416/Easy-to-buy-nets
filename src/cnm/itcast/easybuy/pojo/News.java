@@ -6,6 +6,7 @@ public class News {
    private String contebt;//内容
    private String createTime;//创建时间
 
+
     public Integer getId() {
         return id;
     }
@@ -36,5 +37,15 @@ public class News {
 
     public void setCreateTime(String createTime) {
         this.createTime = createTime;
+    }
+
+    @Override
+    public String toString() {
+        return "News{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", contebt='" + contebt + '\'' +
+                ", createTime='" + createTime + '\'' +
+                '}';
     }
 }

@@ -15,7 +15,6 @@ public class BaseDao {
 	}
 
 
-
 	/**
 	 * 	 数据库增删改方法
 	 *
